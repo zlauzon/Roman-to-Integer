@@ -1,4 +1,9 @@
-A solution I have written to solve the Roman to Integer programming challenge.
+A solution I have written to solve the Roman to Integer programming challenge. Challenge provided by LeetCode.com
+Some stats about my solution:
+<ul>
+	<li>3999 / 3999 test cases passed.</li>
+	<li>Runtime: 14 ms <code>runtime beats 64.12 % of cpp submissions</code></li>
+	<li>Memory Usage: 5.9 MB <code>memory usage beats 97.78 % of cpp submissions</code></li>
 
 <div><p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>
 
