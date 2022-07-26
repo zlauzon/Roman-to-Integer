@@ -8,6 +8,7 @@ public:
     int romanToInt(string s) {
         int num = 0;
         char lastChar = '\0';
+        // We add full value of letters regardless and retroactively subtract through double the regular modifying prefix character.
         for (char letter : s){
             if (letter == 'M') {
                 num += 1000;
@@ -36,8 +37,6 @@ public:
             if (letter == 'I') num++;
             lastChar = letter;
         }
-        
-        
         return num;
     }
 };
