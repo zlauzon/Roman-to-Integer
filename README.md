@@ -8,7 +8,8 @@ Some stats about my solution:
 </ul>
 <br>
 <br>
-The challenge is as follows ([cha](https://leetcode.com/problems/roman-to-integer/)):
+The challenge is as follows (https://leetcode.com/problems/roman-to-integer/):
+<br>
 <br>
 <div><p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>
 
