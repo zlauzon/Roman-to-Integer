@@ -4,22 +4,40 @@
 */
 
 class Solution {
-public:
-  int romanToInt(string s) {
-    int num = 0;
-    char lastChar = 0;
-    for (char letter : s) {
-      switch (letter) {
-        case 'M': num += 500;
-        case 'D': num += 500 - lastChar == 'C' ? 200 : 0; break;
-        case 'C': num += 50;
-        case 'L': num += 50 - lastChar == 'X' ? 20 : 0; break;
-        case 'X': num += 5;
-        case 'V': num += 5 - lastChar == 'I' ? 2 : 0; break;
-        case 'I': num += 1;
-      }
-      lastChar = letter;
+public:  
+    int romanToInt(string s) {
+        int num = 0;
+        char lastChar = '\0';
+        for (char letter : s){
+            if (letter == 'M') {
+                num += 1000;
+                if (lastChar == 'C') num -= 200;
+            }
+            if (letter == 'D') {
+                num += 500;
+                if (lastChar == 'C') num -= 200;
+            }
+            if (letter == 'C') {
+                num += 100;
+                if (lastChar == 'X') num -= 20;
+            }
+            if (letter == 'L') {
+                num += 50;
+                if (lastChar == 'X') num -= 20;
+            }
+            if (letter == 'X') {
+                num += 10;
+                if (lastChar == 'I') num -= 2;
+            }
+            if (letter == 'V') {
+                num += 5;
+                if (lastChar == 'I') num -= 2;
+            }
+            if (letter == 'I') num++;
+            lastChar = letter;
+        }
+        
+        
+        return num;
     }
-    return num;
-  }
 };
