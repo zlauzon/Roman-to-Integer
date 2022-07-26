@@ -1,4 +1,4 @@
-A solution I have written to solve the Roman to Integer programming challenge.
+A solution I have written to solve the Roman to Integer programming challenge posted on .
 <br>
 Some stats about my solution:
 <ul>
@@ -8,7 +8,7 @@ Some stats about my solution:
 </ul>
 <br>
 <br>
-The challenge is as follows:
+The challenge is as follows ([cha](https://leetcode.com/problems/roman-to-integer/)):
 <br>
 <div><p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>
 
