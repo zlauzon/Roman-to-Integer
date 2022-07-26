@@ -1,4 +1,4 @@
-A solution I have written to solve the Roman to Integer programming challenge posted on.
+A solution I have written to solve the Roman to Integer programming challenge.
 <br>
 <br>
 Some stats about my solution:
