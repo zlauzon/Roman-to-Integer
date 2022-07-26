@@ -4,7 +4,8 @@ Some stats about my solution:
 	<li>3999 / 3999 test cases passed.</li>
 	<li>Runtime: 14 ms <code>runtime beats 64.12 % of cpp submissions</code></li>
 	<li>Memory Usage: 5.9 MB <code>memory usage beats 97.78 % of cpp submissions</code></li>
-
+</ul>
+<br>
 <div><p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>
 
 <pre><strong>Symbol</strong>       <strong>Value</strong>
